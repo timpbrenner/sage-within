@@ -11,6 +11,27 @@
   </head>
 
   <body>
+    <div id="navigation-header" class="header">
+      <div class="logo-image">
+      </div>
+
+      <div class="navigation">
+        <div class="nav_item">
+          <%= link_to "Home", root_path %>
+        </div>
+        <div class="nav_item">
+          <%= link_to "About", about_path %>
+        </div>
+        <div class="nav_item">
+          <%= link_to "Counseling", counseling_path %>
+        </div>
+        <div class="nav_item">
+          <button class="btn btn-primary">Let&lsquo;s Work Together</button>
+        </div>
+      </div>
+    </div>
+
+
     <%= yield %>
   </body>
 </html>
