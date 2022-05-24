@@ -1,12 +1,15 @@
 @import "bootstrap";    
 @import "home";    
 
+$primary: #7E949A;
+$secondary: #957D8B;
+$tertiary: #949A7E;
+
 body {
-  height: 3000px;
 }
 
 .header {
-  background-color: #00FF00;
+  background-color: #FFF;
   display: flex;
   height: 90px;
   justify-content: space-between;
@@ -16,9 +19,11 @@ body {
   z-index: 1000;
 
   .logo-image {
-    background-color: #FF0000;
     height: 100%;
-    width: 100px;
+
+    img {
+      height: 100%;
+    }
   }
 
   .navigation {
